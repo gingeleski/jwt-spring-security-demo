@@ -11,10 +11,10 @@ for JWT-Authentication and did some changes.
 [![Build Status](https://travis-ci.org/szerhusenBC/jwt-spring-security-demo.svg?branch=master)](https://travis-ci.org/szerhusenBC/jwt-spring-security-demo)
 
 ## Requirements
-This demo is build with with Maven 3.6.x and Java 11.
+This demo is build with with Maven 3.6.x and Java 13.
 
 ## Usage
-Just start the application with the Spring Boot maven plugin (`mvn spring-boot:run`). The application is
+Just start the application with the Spring Boot Gradle plugin (`gradle bootRun`). The application is
 running at [http://localhost:8080](http://localhost:8080).
 
 You can use the **H2-Console** for exploring the database under [http://localhost:8080/h2-console](http://localhost:8080/h2-console):

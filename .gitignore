@@ -49,6 +49,14 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+### Gradle
+.gradle/
+.settings/
+bin/
+build/
+.classpath
+.project
+
 ### Java
 
 *.class
