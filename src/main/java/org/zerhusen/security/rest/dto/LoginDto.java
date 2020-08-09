@@ -43,10 +43,8 @@ public class LoginDto {
    }
 
    @Override
-   public String toString() {
-      return "LoginVM{" +
-         "username='" + username + '\'' +
-         ", rememberMe=" + rememberMe +
-         '}';
+   public String toString()
+   {
+      return "LoginVM{" + "username='" + username + "'" + ", rememberMe=" + rememberMe + "}";
    }
 }

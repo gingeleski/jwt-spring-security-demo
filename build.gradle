@@ -27,7 +27,7 @@ targetCompatibility = 1.13
 ext {
     // START VERSION VARIABLES
 
-    springVersion = "5.2.5.RELEASE"
+    springVersion = "5.2.2.RELEASE"
     springBootVersion = "2.2.6.RELEASE"
 
     // END VERSION VARIABLES

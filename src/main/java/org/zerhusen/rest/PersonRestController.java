@@ -11,6 +11,7 @@ public class PersonRestController {
 
    @GetMapping("/person")
    public ResponseEntity<Person> getPerson() {
+      //ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON)
       return ResponseEntity.ok(new Person("John Doe", "john.doe@test.org"));
    }
 
